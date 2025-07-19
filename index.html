@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Club Trece | Privacidad de Lujo</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@600&family=Inter:wght@300;500&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --gold: #d4af37;
+      --gold-light: #f5c842;
+      --bg-dark: #0b0b0b;
+      --text-light: #f0f0f0;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Inter', sans-serif;
+      background: var(--bg-dark);
+      color: var(--gold);
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(145deg, #0b0b0b, #1a1a1a);
+      padding: 3rem 1rem;
+      text-align: center;
+      border-bottom: 1px solid #d4af3744;
+      box-shadow: 0 4px 10px #00000066;
+    }
+
+    header h1 {
+      font-family: 'Playfair Display', serif;
+      font-size: 3rem;
+      letter-spacing: 2px;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      color: #c4a83c;
+      margin-top: 0.5rem;
+    }
+
+    .container {
+      max-width: 960px;
+      margin: auto;
+      padding: 2rem;
+    }
+
+    .section-title {
+      font-family: 'Playfair Display', serif;
+      font-size: 2rem;
+      text-align: center;
+      color: var(--gold-light);
+      margin-bottom: 1rem;
+    }
+
+    .product {
+      background: linear-gradient(180deg, #111111, #1b1b1b);
+      padding: 2rem;
+      margin: 2rem 0;
+      border-radius: 12px;
+      border: 1px solid #d4af3733;
+      box-shadow: 0 0 12px #d4af3722;
+      transition: transform 0.3s ease;
+    }
+
+    .product:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 4px 20px #d4af3744;
+    }
+
+    .product h2 {
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+      font-family: 'Playfair Display', serif;
+      color: var(--text-light);
+      font-size: 1.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .product p, .product ul {
+      color: var(--text-light);
+    }
+
+    .product ul {
+      margin: 1rem 0 0 1.2rem;
+    }
+
+    .product ul li {
+      margin-bottom: 0.5rem;
+    }
+
+    .cta-button {
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 10px 20px;
+      background-color: var(--gold-light);
+      color: #000;
+      border-radius: 5px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background 0.3s ease;
+      box-shadow: 0 0 10px #d4af3755;
+    }
+
+    .cta-button:hover {
+      background-color: #fff;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      font-size: 0.95rem;
+      color: #a38d2c;
+      border-top: 1px solid #d4af3722;
+    }
+
+    .features {
+      list-style: none;
+      padding: 0;
+      color: var(--text-light);
+      font-size: 1rem;
+      margin-top: 2rem;
+      text-align: center;
+    }
+
+    .features li {
+      margin-bottom: 0.5rem;
+    }
+
+    svg {
+      width: 24px;
+      height: 24px;
+      fill: var(--gold-light);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Club Trece</h1>
+    <p>Privacidad portátil con elegancia.</p>
+  </header>
+
+  <section class="container">
+    <h2 class="section-title">Tu privacidad, con estilo.</h2>
+    <p style="text-align: center; color: var(--text-light); font-size: 1.1rem;">
+      Descubre un nuevo estándar en seguridad digital.<br />
+      USBs de lujo con <strong>Tails OS</strong> y almacenamiento cifrado.<br />
+      Protege tu información. Navega sin dejar huella.
+    </p>
+  </section>
+
+  <section class="container">
+    <div class="product">
+      <h2><svg viewBox="0 0 24 24"><path d="M12 1L3 5v6c0 5.55 3.84 10.74 9 12 5.16-1.26 9-6.45 9-12V5l-9-4z"/></svg> USB 8 GB – Privacidad Esencial</h2>
+      <p>Ideal para iniciarse en el mundo de la privacidad digital. Compacta, confiable y lista para usar.</p>
+      <ul>
+        <li>✅ Navegación anónima con Tor</li>
+        <li>✅ Carpeta cifrada (~5.5 GB)</li>
+        <li>✅ Tails preinstalado</li>
+        <li><strong>$25 USD</strong></li>
+      </ul>
+      <a class="cta-button" href="https://wa.me/573001112233?text=Hola,+quiero+adquirir+este+producto+Club+Trece" target="_blank">Solicitar ahora</a>
+    </div>
+  </section>
+
+  <section class="container">
+    <h2 class="section-title">¿Qué incluye tu USB de Club Trece?</h2>
+    <ul class="features">
+      <li>✅ USB de alta velocidad con carcasa de lujo</li>
+      <li>✅ Sistema operativo <strong>Tails OS</strong> preinstalado</li>
+      <li>✅ Arranque directo en cualquier computador</li>
+      <li>✅ Almacenamiento cifrado <em>(según versión)</em></li>
+      <li>✅ Manual de uso digital incluido</li>
+      <li>✅ Soporte básico vía correo electrónico</li>
+      <li>✅ Presentación premium: ideal para regalar o uso profesional</li>
+    </ul>
+  </section>
+
+  <footer>
+    © 2025 Club Trece. Privacidad real, estilo verdadero.
+  </footer>
+</body>
+</html>
